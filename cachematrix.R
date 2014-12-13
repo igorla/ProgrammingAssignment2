@@ -31,3 +31,9 @@ cacheSolve <- function(x,...){
   x$setInverse(m)
   m
 }
+
+## Example of testing
+## matrix <- c(c(1,2,3),c(5,6,7), c(7,4,5))
+## mat1 <- matrix(matrix, 3)
+## a <- makeCacheMatrix(mat1)
+## cacheSolve(a)
